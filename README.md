@@ -3,7 +3,7 @@
 [![PHP Version](https://img.shields.io/badge/PHP-%5E8.3.1-blue)](https://www.php.net/releases/)
 [![JavaScript - ES13](https://img.shields.io/static/v1?label=JavaScript&message=ES13&color=blue&logo=javascript)](https://)
 
-ZOO_WEPAGE es una página web hecha en PHP, JavaScript y CSS. 
+ZOO_WEPAGE fue un proyecto hecho a inicios del 2020 construido en PHP, JavaScript y CSS. 
 
 ___
 ## Antes de empezar
