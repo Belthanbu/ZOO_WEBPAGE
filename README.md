@@ -1,5 +1,7 @@
 # ZOO_WEBPAGE
 ![Static Badge](https://img.shields.io/badge/Size-_73mb-blue)
+[![PHP Version](https://img.shields.io/badge/PHP-%5E8.3.1-blue)](https://www.php.net/releases/)
+[![JavaScript - ES13](https://img.shields.io/static/v1?label=JavaScript&message=ES13&color=blue&logo=javascript)](https://)
 
 ZOO_WEPAGE es una página web hecha en PHP, JavaScript y CSS. 
 
