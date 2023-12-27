@@ -1,0 +1,707 @@
+/*================================================*/
+						/*GENERAL*/
+/*================================================*/}
+* {
+  box-sizing: border-box;
+}
+body{
+	background-image: url("../Imagenes/fondo2.jpg");
+	margin: 0;
+}
+header{
+	background: #252121;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto; 
+  padding: 10px;
+  z-index: 5; 
+}
+header nav a{
+	padding: 20px;
+}
+a{ 
+	text-decoration: none;
+	color: #FFFFFF;
+}
+main{
+	margin: 0 auto; 
+  padding: 15px;
+	
+}
+footer{
+	background:  #252121;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 25px; 
+  padding: 10px;
+	color: white;
+}
+
+/*================================================*/
+						/*INDEX*/
+/*================================================*/
+.indext{ /*Aplica a Index, Nostros, Tarifas y contactos*/
+	background-image: url("../Imagenes/fondo6.jpg");
+	margin: 0;
+	font-family: Rubik;
+	font-size: 25px;
+}
+.cabecera2{
+	background: #252121;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px;
+    padding: 15px; 
+    text-align: center; 
+    border-radius: 20px 10px 30px 50px;
+}
+#logo{
+	width: 250px;
+	height: 150px;
+}
+.item-atencion{
+ height: 100%;
+	width: 100%;
+	margin-top: 170px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.regiones{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.regiones img{
+ width: 1000px;
+ height: 100%;
+}
+.regiones2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.regiones2 img{
+ width: 900px;
+ height: 550px;
+
+}
+.texto-regiones{
+	font-size: 150px;
+	margin-left: 45px;
+}
+.texto-regiones2{
+	font-size: 150px;
+	margin-left: 55px;
+}
+.item-regiones{
+	margin: 0 auto;
+	
+}
+.item-regiones2{
+	margin: 0 auto;
+}
+
+.link-regiones{
+  width: 107%;
+  background: #1FC54A;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 35px;
+  border-radius: 25px 0px 0px 25px;
+}
+.link-regiones2{
+  width: 107%;
+  background: #1FC54A;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 35px;
+  border-radius: 25px 0px 0px 25px;
+}
+.link-regiones{
+  transition: all 0.5s;
+}
+.link-regiones:hover{
+  background: #FFFF00;
+  color: black;
+}
+.link-regiones2:hover{
+  background: #FFFF00;
+  color: black;
+}
+.link-regiones2{
+  transition: all 0.5s;
+}
+.formato{
+	text-align: center;
+	color: #000000;
+	font-size: 50px;
+}
+.item-aves{
+	height: 1000px;
+	width: 1000px;
+	border-radius: 30px
+}
+.item-redessociales{
+	width: 50px;
+	height: 50px;
+}
+
+.icons{
+	display: flex;
+	justify-content: center;
+	gap:  15px;
+
+}
+.listar-tablas{
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+.texto-admin{
+	color: black;
+	font-family: Rubik;
+	font-size: 25px;
+
+}
+/*================================================*/
+						/*CABECERA/
+/*================================================*/
+.header{
+    width: 100%;
+    height: 150px;
+    background: #252121;
+    position: fixed;
+    z-index: 5;
+
+}
+#texto-cabecera{
+	color: white;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+.container{
+		display: flex;
+		justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 150px;
+    margin-left: 50px;
+}
+.logo{
+    float: left;
+    line-height: 65px;
+}
+
+.menu{
+    float: right;
+    line-height: 65px;
+    margin-left: 600px;
+}
+.menu ul li a i{
+	display: flex;
+ 	margin: 0 auto;
+ 	justify-content: center;
+
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    text-decoration: none;
+    transition: all 500ms ease;
+}
+.menu a:hover{
+    background: #1FC54A;
+    color: #fff;
+    border-radius: 25px;
+}
+.menu li{
+	line-height: 50px;
+}
+.menu .submenu{
+    background: #252121;
+    box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
+    display: none;
+    padding: 1em;
+}
+
+.menu .submenu li a{
+    line-height: 50px;
+}
+.menu ul li a:hover + ul, .menu .submenu:hover{
+    display: block;
+}
+/*================================================*/
+						/*NOSOTROS*/
+/*================================================*/
+.titulos{ /*Aplica a Nosotros y contactos*/
+	font-size: 50px;
+   text-align: center;
+
+}
+.section_all{
+	padding-top: 150px;
+}
+.section_all2{
+	padding: 200px;
+	padding-bottom: 25px;
+	align-self: center;
+}
+.section_regiones{
+	padding-top: 50px;
+}
+.texto-nosotros{
+	background: #252121;
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	margin: 30px;
+  padding: 15px; 
+  text-align: justify;  
+  border-radius: 20px 10px 30px 50px;
+  color: white;
+}
+.texto-nosotros2{ /*Aplica a Nosotros y contactos*/
+
+	margin: 30px;
+	padding: 2px;
+	border-radius: 20px 10px 30px 50px;
+	border-color: black ;
+
+}
+.texto-nosotros2 fieldset{
+	margin: 30px;
+	padding: 2px;
+	border-radius: 20px 10px 30px 15px;
+	border-color: black ;
+}
+.form-contacto{ /*contactos*/
+	margin: 30px;
+	padding: 2px;
+}
+
+
+.ubicacion{
+	float: right;
+	margin-left: 100px;
+}
+
+/*================================================*/
+						/*TARIFAS*/
+/*================================================*/
+.texto-tarifas{
+	text-align: center;
+}
+
+/*================================================*/
+						/*RECLAMOS*/
+/*================================================*/
+.btn-reclamo{
+	background: #FFCC00;
+	color: black;
+	margin: 30px; 
+    padding: 15px; 
+    text-align: center; 
+    border: 3px solid; 
+    border-radius: 30px 30px 30px 30px;
+}
+.reclamos{
+	
+	margin: 20px;
+	padding: 2px;
+	text-align: center;
+
+}
+.libro-reclamo{
+	border-radius: 30px
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	display: block;
+}
+
+
+/*================================================*/
+						/*CONTACTOS*/
+/*================================================*/
+.controls{
+	  width: 100%;
+	  background: #F7ECA5;
+	  padding: 10px;
+	  text-align: center;
+	  border-radius: 4px;
+	  margin-bottom: 16px;
+	  border: 1px solid #000000;
+	  font-size: 18px;
+}
+.controls2{
+	  width: 40%;
+	  background: #F7ECA5;
+	  padding: 10px;
+	  text-align: center;
+	  border-radius: 4px;
+	  margin-bottom: 16px;
+	  border: 1px solid #000000;
+	  font-size: 18px;
+}
+/*================================================*/
+						/*PRODUCTOS*/
+/*================================================*/
+.container-productos{
+	padding: 20px;
+	margin: 0 auto;
+}
+.productos{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.item-producto{
+	padding: 20px 50px;
+	margin: 0 auto;
+}
+.informacion{
+	border-top: 1px solid rgb(230, 230, 230);
+	padding: 1em;
+	display: flex;
+	flex-flow: column; 
+
+}
+.carrito{
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+
+}
+.carrito-item{
+	flex-grow: 3;
+	
+}
+.form-productos2 {
+  width: 400px;
+  background: #252121;
+  padding: 20px 50px;
+  margin: auto;
+  border-radius: 15px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+.form-productos2 .botons {
+  width: 107%;
+  background: #1FC54A;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+.boton{
+	font-size: 75px;
+	float: right;
+}
+
+/*================================================*/
+			/*COSTA, SIERRA Y SELVA*/
+/*================================================*/
+
+.indext2{
+	background-image: url("../Imagenes/fondocosta1.jpg");
+	background-position: 50% 40%;
+	/*margin: 0 310px;*/
+	font-family: Rubik;
+	font-size: 25px;
+}
+
+#logo2{
+
+	width: 400px;
+	height: 265px
+
+}
+.cabecera3{
+	font-size: 35px;
+	background: #252121;
+	display: flex;
+	justify-content: space-around;
+  	padding-top: 140px; 
+  	margin: 0 auto;
+
+}
+.cabecera3 div{
+	height: 50px;
+	margin: 5px;
+}
+.titulos-regiones{
+	font-size: 50px;
+    background: #252121;
+	display: flex;
+	justify-content: center;
+	margin: 1px 0px 15px 15px; 
+    padding: 5px;   
+    border-radius: 20px 10px 30px 50px;
+    color: white;
+    width: 1150px;
+
+}
+.cont-regiones {
+	background: #F39C12;
+	display: flex;
+	align-items: center;
+	margin: 1px 0px 15px 15px; 
+    padding: 5px;   
+    border-radius: 20px 10px 30px 50px;
+    width: 1150px;
+}
+.cont-regiones div{
+	width: 100px;
+	height: 85px;
+	margin: 100px;
+
+}
+.cont-regiones img{
+	width: 285px;
+	height: 350px;
+	border-radius: 20px 10px 30px 50px;
+}
+#color2{
+    background: #2ECC71;
+}
+#color3{
+    background: #BA4A00;
+}
+#color4{
+    background: #03A5F9;
+}
+#imagent img{
+	width: 350px;
+	height: 400px;	
+}
+
+
+/*================================================*/
+						/*SIERRA*/
+/*================================================*/
+.indextsierra {
+	background-image: url("../Imagenes/fondosierra.jpg");
+	/*margin: 0 310px;*/
+	font-family: Rubik;
+	font-size: 25px;
+}
+
+/*================================================*/
+						/*SELVA/
+/*================================================*/
+.indextselva {
+	background-image: url("../Imagenes/fondoselva.jpg");
+	background-attachment: fixed;
+	/*margin: 0 310px;*/
+	font-family: Rubik;
+	font-size: 25px;
+}
+
+
+/*================================================*/
+						/*AVES/
+/*================================================*/
+.indextaves {
+	background-image: url("../Imagenes/fondoaves.jpg"), url("../Imagenes/fondoaves2.jpg");;
+	background-attachment: scroll;
+	background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+	/*margin: 0 310px;*/
+	font-family: Rubik;
+	font-size: 25px;
+}
+
+
+.entregable3{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.entregable-all legend{
+	border-color: black;
+}
+
+
+
+/*================================================*/
+						/*SLIDER/
+/*================================================*/
+.container-slider{
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+	overflow: hidden;
+	box-shadow: 0 0 0 10px #fff,
+				0 15px 50px;
+	position: relative;	
+	margin-bottom: 75px;	
+	z-index: 1;	
+}
+.slider{
+	display: flex;
+	width: 400%;
+	height: 400px;
+	margin-left: -100%;
+}
+.slider__section{
+	width: 100%;
+}
+.slider__img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+.slider__btn{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: rgba(255,255,255,0.7);
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.slider__btn:hover {
+	background: #fff;
+}
+.slider__btn--left{
+	left: 10px;
+}
+.slider__btn--right{
+	right: 10px;
+}
+
+/*================================================*/
+						/*FORMULARIOS/
+/*================================================*/
+.form-register {
+  width: 400px;
+  background: #252121;
+  padding: 45px;
+  margin: auto;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #243C2A;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1FC54A;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+.controls1 {
+  width: 107%;
+  background: #243C2A;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1FC54A;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+
+.form-register .botons {
+  width: 107%;
+  background: #1FC54A;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+
+
+.beliminar {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.bmodificar {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/*================================================*/
+						/*TABLAS/
+/*================================================*/
+.content-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #F39C12;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 5px solid #F39C12;
+}
+.paypal{
+	position: relative;
+	z-index: 1;
+
+}
